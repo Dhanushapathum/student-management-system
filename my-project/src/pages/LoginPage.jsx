@@ -1,83 +1,49 @@
 import loginImage from '../assets/login.jpg';
 
 function Login(){
-    return(
-        <div className="container">
-                <div className="login-container">
+   return (
+            <div className="container">
+
                         <div className="left-section">
-                            <img src={loginImage} alt="Login" className="login-image" />
+                        <img
+                            src={loginImage}
+                            alt="Login"
+                            className="login-image"
+                        />
                         </div>
 
-                        <div className="right-section">
-                                <div className="login-card">
-                                    <div className='logo'>
-                                        <h1>STUDENT</h1>
-                                        <h2>MANAGEMENT SYSTEM</h2>
-                                    </div>
+                <div className="right-section">
+                <div className="login-card">
 
-                                    <p className='subtitle'>Login to your account</p>
+                    <div className="logo">
+                    <h1>STUDENT</h1>
+                    <h2>MANAGEMENT SYSTEM</h2>
+                    </div>
 
-                                    <input type="text" placeholder='Username' className="input-field" />
-                                    <input type="password" placeholder='Password' className="input-field" />
+                    <p className="subtitle">Login to your account</p>
 
-                                    <div  className='options'>
-                                        <label>
-                                            <input type="checkbox"/>Remember me
-                                        </label>
+                    <input type="text" placeholder="Username" className="input-field" />
+                    <input type="password" placeholder="Password" className="input-field" />
 
-                                        <a href='#'>Forgot Password?</a>
-                                    </div>
-                                    
-                                    <button className='login-btn'>LOGIN</button>
+                    <div className="options">
+                    <label>
+                        <input type="checkbox" /> Remember me
+                    </label>
 
-                                    <p className='footer-text'>
-                                        Don't have an account? <a href="/">Create</a>
-                                    </p>
+                    <a href="#">Forgot Password?</a>
+                    </div>
 
+                    <button className="login-btn">LOGIN</button>
 
+                    <p className="footer-text">
+                    Don't have an account? <a href="/">Create</a>
+                    </p>
 
+                </div>
+                </div>
 
-
-
-                                </div>
-
-
-
-
-                        </div>    
-
-                </div> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>   
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-    );
+            </div>
+);
 }
 
 

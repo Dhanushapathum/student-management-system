@@ -4,7 +4,7 @@ import LoginPage from "./pages/LoginPage";
 
 function App() {
     return(
-        <>
+        
         <LoginPage />
        
         
@@ -14,7 +14,7 @@ function App() {
         
         
         
-        </>
+        
 
 
 
