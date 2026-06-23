@@ -1,4 +1,4 @@
-import loginImage from '../assets/login.jpg';
+import loginImage from '../assets/21426.jpg';
 
 function Login(){
    return (

@@ -19,6 +19,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    height: 100vh;
 }
 
 
@@ -30,10 +32,10 @@ body{
 }
 
 .login-image {
-  
-    width: 110%;
-    height: 100vh;
-    object-fit: cover;
+  width: 120%;
+  max-width: 897px;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .login-card{
