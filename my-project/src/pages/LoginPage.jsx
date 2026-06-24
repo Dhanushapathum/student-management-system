@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import loginImage from '../assets/21426.jpg';
 
-function Login(){
+function LoginPage(){
    return (
             <div className="container">
 
@@ -36,7 +37,7 @@ function Login(){
                     <button className="login-btn">LOGIN</button>
 
                     <p className="footer-text">
-                    Don't have an account? <a href="/">Create</a>
+                    Don't have an account? <Link to="/register">Create</Link>
                     </p>
 
                 </div>
@@ -47,4 +48,4 @@ function Login(){
 }
 
 
-export default Login;
+export default LoginPage;
