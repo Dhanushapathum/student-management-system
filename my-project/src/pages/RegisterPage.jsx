@@ -1,5 +1,16 @@
 import RegisterImg from '../assets/reg.jpg';
+
+import { useNavigate } from "react-router-dom";
+
 function Register(){
+
+    const navigate = useNavigate();
+    const handleRegister=()=>{
+        //database
+        alert("Registration successful! Please login to continue.");
+        navigate("/");
+    }
+
     return(
         <div className="register-container">
             <div className="left-section">
@@ -53,7 +64,9 @@ function Register(){
                                 <input type="password" placeholder="Password" className="input-field" />
                                 <input type="password" placeholder="Confirm Password" className="input-field" />
                             </div>
-                            <button type="submit" className="register-btn">CREATE ACCOUNT</button>
+                            <button type="submit" className="register-btn" onClick={handleRegister}>
+                                CREATE ACCOUNT
+                            </button>
                         </form>
                     </div>
                 </div>

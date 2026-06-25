@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import loginImage from '../assets/21426.jpg';
+import { useNavigate } from "react-router-dom";
 
 function LoginPage(){
+
+    const navigate = useNavigate();
+    const handleLogin = () => {
+         // Username & Password check logic
+    navigate("/dashboard");
+}     
    return (
             <div className="container">
 
@@ -34,7 +41,9 @@ function LoginPage(){
                     <a href="#">Forgot Password?</a>
                     </div>
 
-                    <button className="login-btn">LOGIN</button>
+                    <button className="login-btn" onClick={handleLogin}>
+                        LOGIN
+                    </button>
 
                     <p className="footer-text">
                     Don't have an account? <Link to="/register">Create</Link>
