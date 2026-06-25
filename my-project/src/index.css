@@ -238,9 +238,24 @@ body{
     cursor: pointer;
     border-radius: 8px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar ul li span{
+    display: inline-block;
 }
 .sidebar ul li:hover{
     background-color: #f0f4ff; 
+}
+.logout{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color:red;
+    cursor: pointer;
 }
 .main-content{
     flex: 1;
