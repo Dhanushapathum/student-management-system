@@ -26,7 +26,8 @@ function Dashboard() {
                 </div>
 
             {/* Main Content */}
-            <div className="header-content">
+            <div className="main-content">
+                <div className="header">
                     <div className="header-left">
                         <span className="menu-icon">&#9776;</span>
                         <h2>Dashboard</h2>
@@ -50,7 +51,7 @@ function Dashboard() {
                                 </div>
                             </div>
                     </div>
-           
+                </div>
             </div>
     </div>
     );
